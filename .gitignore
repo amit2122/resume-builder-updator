@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.__init__.py
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Scraper debug dumps
+data/debug/
+
+# Pipeline-generated outputs (regenerated on each run)
+data/Generated Resume/
+data/Scraped Jobs/
+data/Suggested Keyword/
